@@ -1,0 +1,150 @@
+.realInsightContainer{
+    margin-top:40px
+}
+.text-heading{
+    font-size: 45px;
+    color:white;
+    font-weight: bold;
+}
+.drealInsight-description{
+    width:80%;
+    font-size: 22px;
+    color:white;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.nav-el{
+    text-decoration: none;
+    outline: none;
+    list-style-type: none;
+    color:white;
+    font-size:16.3px;
+    font-weight:400;
+    height:30px;
+     width:100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     padding-top:20px;
+    padding-bottom:20px;
+}
+
+.login{
+    width:70px; 
+    margin-left:15px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.get-started-btn{
+    /* height:30px; */
+    padding:8px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: #35bf2e;
+    color:white;
+    font-size:15px;
+    font-weight:400;
+    border:none;
+    outline: none;
+    border-radius:3px;
+    border-color:#35bf2e;
+    width:130px;
+    margin-left:20px; 
+     /* margin-right:40px  */
+     text-decoration: none;
+    outline: none;
+    list-style-type: none;
+    color:white;
+    /* font-size:16.3px; */
+}
+
+.get-started-btn:hover{
+    background-color: green;
+    color:white
+    
+}
+
+.getStarted{
+    margin-left:0px; 
+}
+
+.ai-bottom-btn-wrapper{
+    display: flex;
+}
+
+.flex-photo{
+    height:100%
+}
+
+@media screen and (max-width:768px){
+    .flex-photo {
+        display: none;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:376px){
+    .artifial-inteligence{
+        font-size: 19px;
+        
+    }
+    .real-span{
+        font-size: 24px;
+       
+    }
+    .drealInsight-description{
+        font-size: 16px;
+        width:100%
+    }
+}
+
+@media screen and (min-width:377px) and (max-width:425px){
+    .artifial-inteligence{
+        font-size: 19px;
+        
+    }
+    .real-span{
+        font-size: 24px;
+       
+    }
+    .drealInsight-description{
+        font-size: 16px;
+        width:100%
+    }
+}
+
+
+@media screen and (min-width:426px) and (max-width:768px){
+    .artifial-inteligence{
+        font-size: 23px;
+        
+    }
+    .real-span{
+        font-size: 27px;
+       
+    }
+    .drealInsight-description{
+        font-size: 23px;
+        width:100%
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1028px){
+    .artifial-inteligence{
+        font-size: 23px;
+        
+    }
+    .real-span{
+        font-size: 27px;
+       
+    }
+    .drealInsight-description{
+        font-size: 19px;
+        width:100%
+    }
+    .flex-photo{
+        height:90%
+    }
+}

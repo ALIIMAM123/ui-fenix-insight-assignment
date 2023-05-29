@@ -1,0 +1,156 @@
+.train-card-section-main{
+    /* height:40vh; */
+
+}
+
+.heading-pro{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.amount{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.user-month{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px !important;
+}
+.btn-monthly{
+    max-width:120px;
+    border:1px solid green;
+   background-color: rgb(138, 199, 138);
+   padding-left:20px;
+   padding-top:5px;
+   padding-bottom: 5px;
+   padding-right:20px;
+   border-radius: 5px;
+}
+
+.btn-container-2{
+    width:100%
+}
+.seven-day-trail-btn{
+    border:1px solid green;
+    background-color: rgb(69, 191, 69);
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+}
+
+.horizontal-line{
+    height:2px;
+    background-color: grey;
+    padding-left:5px;
+    padding-right:5px
+    
+}
+.fa-check{
+    color:green;
+    font-size: 15px;
+}
+.check-label{
+    font-size: 15px;
+    font-weight:500
+}
+.check-box-container{
+    width:80%
+}
+
+.card{
+    background-color: white;
+    width:300px;
+    margin-bottom:300px;
+    min-height:710px;
+   
+}
+
+@media screen and (max-width:768px){
+    .trail-left-container{
+        display: none;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:374px) {
+     .card{
+        width:250px;
+        /* margin-right: 46px; */
+        margin-bottom: 10px;
+        margin-left:10px
+     }
+     .empty-container{
+        display: none
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:424px) {
+    .card{
+       width:350px;
+       flex:1;
+       /* margin-right: 46px; */
+       margin-bottom: 10px;
+       /* margin-left:10px */
+    }
+    .card-wrapper-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .empty-container{
+        display: none
+    }
+}
+
+
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    .card{
+       /* width:200px; */
+       /* padding-left: 20px;
+       padding-right: 20px; */
+       /* flex:1; */
+       /* margin-right: 46px; */
+       margin-bottom: 10px;
+       margin-left:0px
+    }
+    .card-wrapper-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .empty-container{
+        display: none
+    }
+    .second-card-container{
+        /* margin-right:10px */
+    }
+
+  
+}
+
+@media screen and (min-width:768px) and (max-width:1027px) {
+    .card{
+       width:260px;
+       padding-left: 20px;
+       padding-right: 20px;
+       /* flex:1; */
+       /* margin-right: 46px; */
+       margin-bottom: 10px;
+       margin-left:0px
+    }
+    .card-wrapper-container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .empty-container{
+        display: none
+    }
+    .second-card-container{
+        /* margin-right:10px */
+    }
+
+  
+}

@@ -1,0 +1,144 @@
+.global-data-section{
+    background-color: #e9e4e4;
+    /* height:30vh; */
+    margin-left: 45px;
+    /* width:400px */
+}
+
+.real-time-heading{
+    font-size: 40px;
+    color:#172227;
+    margin-top:20px;
+    font-weight: bold;
+}
+
+.card-description{
+    width:70%;
+    font-size: 20px;
+}
+.image-container{
+    /* min-width:100% */
+    width:350px;
+   
+}
+.card-img{
+    width:100%
+}
+
+@media screen and (min-width:320px) and (max-width:374px){
+    .real-time-heading{
+        font-size: 15px;
+        margin-right:25px
+    }
+    .card-description{
+        font-size: 16px;
+        text-align: center;
+        
+        width:90% !important;
+    }
+    .global-data-section{
+        /* margin-left:18px */
+    }
+    .image-container{
+        width:200px;
+        /* flex:1 */
+        
+    }
+
+}
+
+
+@media screen and (min-width:375px) and (max-width:424px){
+    .real-time-heading{
+        font-size: 15px;
+        /* margin-right:25px */
+    }
+    .card-description{
+        font-size: 16px;
+        text-align: center;
+        
+        width:90% !important;
+    }
+    .global-data-section{
+        /* margin-left:18px */
+    }
+    .image-container{
+        width:230px;
+        flex:1
+        
+    }
+
+}
+
+
+
+@media screen and (min-width:325px) and (max-width:767px){
+    .real-time-heading{
+        font-size: 15px;
+        /* margin-right:25px */
+    }
+    .card-description{
+        font-size: 16px;
+        text-align: center;
+        
+        width:90% !important;
+    }
+    .global-data-section{
+        /* margin-left:18px */
+    }
+    .image-container{
+        width:270px;
+        flex:1
+        
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .real-time-heading{
+        font-size: 10px;
+        /* margin-right:25px */
+    }
+    .card-description{
+        font-size: 16px;
+        text-align: center;
+        
+        width:90% !important;
+    }
+    .global-data-section{
+        /* margin-left:18px */
+    }
+    .image-container{
+        width:120px;
+        /* flex:1 */
+        
+    }
+
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1300px) {
+    .real-time-heading{
+        font-size: 10px;
+       
+    }
+    .card-description{
+        font-size: 16px;
+        text-align: center;
+        
+        width:90% !important;
+    }
+    .global-data-section{
+     
+    }
+    .image-container{
+        width:220px;
+       
+        
+    }
+
+}
+
+
+
+
