@@ -1,0 +1,38 @@
+ul{
+    list-style-type: none !important;
+}
+li{
+    /* width:70%; */
+    list-style-type: none;
+}
+
+.company-name{
+    font-size: 30px;
+    color:white;
+    font-weight: 400;
+
+}
+.company-name:hover{
+    color: rgb(6, 147, 207) !important;
+    cursor: pointer;
+}
+
+.description-footer:hover{
+    color: rgb(6, 147, 207) !important;
+    cursor: pointer;
+
+}
+.description-footer{
+    font-size: 15px;
+    color:rgb(224, 218, 218);
+   
+}
+
+.footer-section-container{
+    background-color: #081726
+} 
+
+.recogination-img{
+    margin-right:40px;
+    height:120px
+}

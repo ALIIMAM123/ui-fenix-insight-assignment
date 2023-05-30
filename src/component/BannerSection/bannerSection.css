@@ -1,0 +1,57 @@
+
+.banner-container{
+  
+   background-color: transparent;
+   background-image: linear-gradient(rgba(6, 147, 207, 0.73) 30%, rgb(6, 147, 207) 100%) !important;
+   height:unset
+}
+.banner-image{
+   /* width:150px;
+   height:100% */
+}
+.banner-image-container{
+   /* height:100%;
+   width:200px */
+}
+.horizontal-container{
+   height:4px;
+   background-color: transparent;
+   width:100%;
+   margin-top:20px;
+   margin-bottom:20px;
+}
+
+.horizontal-line-inner-div{
+   height:100%;
+   width:20%;
+   background-color: white;
+}
+.banner-heading{
+   font-size: 50px;
+   font-weight:600;
+   color:white
+}
+
+.client-line{
+   font-size: 20px;
+   font-weight:400;
+   color:white;
+   
+}
+
+.common-button-text{
+   font-size: 17px;
+   border-radius: 20px;
+   border:none;
+   background-color: rgba(8, 23, 38, 0.25);
+   color:white;
+}
+
+@media screen  and (max-width:767px){
+   .banner-heading{
+      font-size: 40px;
+   }
+   .banner-image{
+      margin-top:20px
+   }
+}

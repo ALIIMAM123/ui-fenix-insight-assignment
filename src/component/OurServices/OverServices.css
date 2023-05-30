@@ -1,0 +1,47 @@
+.service-description-text{
+    font-size: 20px;
+    width:80%;
+    color:grey;
+    font-family:roboto;
+    line-height: 1.5;
+}
+.web-development-text{
+    font-size: 30px;
+    color:rgb(6, 147, 207);
+}
+.fall-in-love-text{
+    color:rgb(6, 147, 207);
+    font-size: 45px;
+    text-align: center;
+   
+    font-weight: 400;
+}
+
+
+.services-container-box{
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+    
+}
+
+.line-container{
+    height:2px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.bottom-line-div{
+   height:100%;
+   width: 200px;
+   background-color: rgb(6, 147, 207) !important;
+}
+
+.web{
+    text-align: end !important;
+}
+.web-desc{
+    text-align: end;
+}
+

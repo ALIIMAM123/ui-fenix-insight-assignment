@@ -3,10 +3,10 @@ import "./Trailcardsection.css";
 
 const TrailCardSection = () => {
   return (
-    <div className="train-card-section-main bg-secondary">
+    <div className="train-card-section-main ">
       <div className="wrapper-container">
         <div className=" d-flex justify-content-center">
-          <div className="col-2 empty-container"></div>
+          
           <div className="col-10 mt-5 d-flex align-items-center justify-content-center">
             <div className="row">
               <div className="col-12  col-md-4 card-wrapper-container">
@@ -38,7 +38,7 @@ const TrailCardSection = () => {
                           70+ countries and associated events
                         </span>
                       </div>
-                      <div className="check-box-container mt-2">
+                      <div className="check-box-container mt-2 ">
                         <i className="fa fa-thin fa-check"></i>
                         <span className="check-label">
                           Access to munition data

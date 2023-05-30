@@ -1,0 +1,15 @@
+.weather-img-inner-container{
+    height:500px;
+background-color:  #c2dcf7;    /* opacity: 0.5; */
+    margin-top:0px;
+    
+}
+
+.inside-image{
+    height:100%;
+    width: 100%;
+    box-shadow: white;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: white;
+}

@@ -1,0 +1,40 @@
+.client-logo-container{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.client-logo{
+    width:140px
+}
+
+.some-client-line{
+    text-align: center;
+}
+
+.very-best-line{
+    color:grey;
+    font-family: roboto;
+    font-size: 25px;
+    text-align: center;  
+}
+.some-client-line{
+    font-size: 14px;
+}
+
+@media screen and (max-width:767px){
+    .very-best-line{
+        color:grey;
+        font-family: roboto;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    .some-client-line{
+        font-size: 14px;
+    }
+    
+}
+
+

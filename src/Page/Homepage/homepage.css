@@ -1,77 +1,48 @@
-.homepage-container{
-    background-color: black;
-    /* height:100vh; */
-    overflow: hidden;
-}
 
-.homePage-wrapper{
-    margin:0;
-    background: linear-gradient( to right#3176c0 4%,#538291 10%);
-   
-}
-.section-one{
-     background: #234a74;
-}
-
-.container-1{
-    background: linear-gradient(176deg,#3176c0 4%,#343434 66%);
-    /* height:100vh; */
-    /* clip-path: polygon(50% 0%, 100% 0, 100% 60%, 52% 80%, 0 100%, 0% 60%, 0 1%); */
-     position: relative;
-}
-
-.container-2{
-    background: #234a74;
-    height:80vh;
-    position: absolute;
-    z-index: 999;
- 
-    width:100%
-}
-
-.trial-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex:1;   
+.banner-container{
   
+    background-color: transparent;
+    background-image: linear-gradient(rgba(6, 147, 207, 0.73) 30%, rgb(6, 147, 207) 100%) !important;
+    height:unset
 }
-.trail-offer-container{
-    background-color: #f70;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 190px;
-   height:70px;
-   position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+.banner-image{
+    /* width:150px;
+    height:100% */
 }
-.free-text{
+.banner-image-container{
+    /* height:100%;
+    width:200px */
+}
+.horizontal-container{
+    height:4px;
+    background-color: transparent;
+    width:100%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.horizontal-line-inner-div{
+    height:100%;
+    width:20%;
+    background-color: white;
+}
+.banner-heading{
+    font-size: 50px;
+    font-weight:600;
+    color:white
+}
+
+.client-line{
     font-size: 20px;
-    font-weight: 400;
-    color:#FFFFFF;
-    margin:0px;  
-   
-}
-.get-started{
-    margin-top: 0px;
+    font-weight:400;
+    color:white;
+    
 }
 
-.trail-row-container{
-    padding:0;
-    scrollbar-gutter: 0;
-}
-.content-section{
-    margin-left:50px;
-}
-
-.container-real-time-section{
-    background-color: #e9e4e4;;
-    margin-left:60px
-}
-
-.global-data{
-    margin-left:60px
+.common-button-text{
+    font-size: 17px;
+    border-radius: 20px;
+    border:none;
+    background-color: rgba(8, 23, 38, 0.25);
+    color:white;
 }
