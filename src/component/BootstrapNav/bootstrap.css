@@ -35,6 +35,15 @@
     color:black !important;
     font-weight: bold;
 }
+
+.lets-talk-btn:hover{
+    border-bottom:2px solid #0693CF;
+    color:white;
+    margin-bottom: 0px;
+    
+    /* font-weight: bold; */
+    width:100%
+}
 .nav-link:hover{
     border-bottom:2px solid #0693CF;
     color:#0693CF !important;
@@ -57,6 +66,10 @@
     font-weight: bold;
 }
 
+.get-started-text:hover{
+    color: white !important;
+   border-bottom: none;
+}
 .login-button-container{
     background-color: white;
     padding-left:4px;

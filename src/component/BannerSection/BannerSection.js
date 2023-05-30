@@ -26,10 +26,10 @@ const BannerSection = () => {
               </span>
 
               <div className="button-container d-flex  mt-3">
-                <button className=" common-button-text me-4 px-3 py-2">
+                <button className=" common-button-text me-4 ">
                  Get Started Now
                 </button>
-                <button className=" common-button-text px-5 py-2 bg-white text-black">
+                <button className=" common-button-text  bg-white text-black">
                  Login
                 </button>
               </div>

@@ -32,7 +32,7 @@ const FooterSection = () => {
                 Web Symphony: Harmonise Your Digital Symphony with Me.
               </li>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3 contact-information-div">
               <h1 className="company-name">Contact Information</h1>
               <li className="description-footer">
                 <a className="fa fa-volume-control-phone me-3" />
@@ -47,7 +47,7 @@ const FooterSection = () => {
                 Jaipur ,Rajasthan
               </li>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3 review-and-recognation-container">
               <h1 className="company-name"> Reviews & Recognitions</h1>
               <li className="description-footer">
                 <a className="fa fa-volume-control-phone me-3" />

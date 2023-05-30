@@ -36,3 +36,29 @@ li{
     margin-right:40px;
     height:120px
 }
+
+
+@media screen  and (max-width:425px){
+    .company-name{
+        font-size: 20px;
+       
+    
+    }
+    .description-footer{
+        font-size: 9px;   
+    }
+
+    .contact-information-div{
+        padding-left:40px !important;
+        margin-top: 15px !important;
+    }
+
+    .review-and-recognation-container{
+        margin-top: 15px !important;
+        margin-bottom: 0px !important;
+    }
+    .recogination-img{
+        width:90px;
+        margin-top:0px !important
+    }
+ }

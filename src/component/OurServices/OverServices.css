@@ -45,3 +45,34 @@
     text-align: end;
 }
 
+
+@media screen  and (max-width:420px){
+    .fall-in-love-text{
+      
+       
+        font-size: 30px !important;
+        
+        
+    }
+    .some-client-line{
+        font-size: 8px !important;
+    }
+    .client-logo{
+        width:90px
+    }
+    
+ }
+
+@media screen and (max-width:767px){
+    .very-best-line{
+        color:grey;
+        font-family: roboto;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    .some-client-line{
+        font-size: 14px;
+    }
+    
+}

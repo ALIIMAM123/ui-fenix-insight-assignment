@@ -14,7 +14,7 @@ const BootstrapNav = () => {
     <div class="collapse navbar-collapse navigation-container" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item nav-element1">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#" style = {{borderBottom:"2px solid #0693CF"}}>Home</a>
         </li>
         <li class="nav-item nav-element1">
           <a class="nav-link active" href="#">Web Services</a>
@@ -29,7 +29,7 @@ const BootstrapNav = () => {
           <a class="nav-link active" href="#">Contact</a>
         </li>
         <li class="nav-item nav-element1 get-started-button">
-          <a class="nav-link active get-started-text" href="#">Lets Talk</a>
+          <a class="nav-link active get-started-text lets-talk-btn" href="#">Lets Talk</a>
         </li>
         <li class="nav-item nav-element1 login-button-container">
           <a class="nav-link active login-link-button" href="#">Login</a>

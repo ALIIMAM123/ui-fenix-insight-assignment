@@ -47,6 +47,30 @@
    color:white;
 }
 
+.common-button-text{
+   
+   padding:6px 17px
+}
+
+@media screen  and (max-width:420px){
+   .banner-heading{
+      font-size: 40px;
+   }
+   .banner-image{
+      margin-top:20px
+   }
+   .common-button-text{
+      font-size: 10px;
+      padding:5px 12px
+   }
+   .client-line{
+      font-size: 14px;
+   }
+   .banner-heading{
+      font-size: 20px;
+   }
+}
+
 @media screen  and (max-width:767px){
    .banner-heading{
       font-size: 40px;
@@ -54,4 +78,5 @@
    .banner-image{
       margin-top:20px
    }
+
 }
